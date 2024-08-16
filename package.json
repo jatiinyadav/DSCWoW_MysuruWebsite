@@ -1,6 +1,6 @@
 {
 	"name": "arr-toolkit",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "A collection of handy array manipulation functions.",
 	"main": "dist/index.js",
 	"types": "dist/index.js",
@@ -12,11 +12,11 @@
 		"test": "jest",
 		"build": "tsc"
 	},
-  "files": [
-    "dist/",
-    "README.md",
-    "LICENSE"
-  ],
+	"files": [
+		"dist/",
+		"README.md",
+		"LICENSE"
+	],
 	"keywords": [
 		"array",
 		"array-utils",
