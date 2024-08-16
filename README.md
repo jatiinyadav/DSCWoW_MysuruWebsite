@@ -1,4 +1,5 @@
 [![](https://img.shields.io/npm/v/arr-toolkit.svg)](https://www.npmjs.com/package/arr-toolkit)
+[![ci](https://github.com/jatiinyadav/arr-toolkit/actions/workflows/main.yml/badge.svg)](https://github.com/jatiinyadav/arr-toolkit/actions/workflows/main.yml)
 # arr-toolkit
 
 arr-toolkit is a comprehensive utility library for array manipulation, offering a range of functions to streamline common array operations such as finding intersections, calculating differences, shuffling elements, chunking arrays, flattening nested structures, ensuring uniqueness, rotating elements, zipping arrays, partitioning based on conditions, and unifying arrays.
