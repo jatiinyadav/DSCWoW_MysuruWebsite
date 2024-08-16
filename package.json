@@ -1,6 +1,6 @@
 {
 	"name": "arr-toolkit",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A collection of handy array manipulation functions.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -17,9 +17,9 @@
 		"array-utils",
 		"regex",
 		"array-manipulation",
-    "lodash",
-    "array-toolkit",
-    "typescript"
+		"lodash",
+		"array-toolkit",
+		"typescript"
 	],
 	"author": "Jatin Yadav",
 	"license": "MIT",
