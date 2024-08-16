@@ -12,6 +12,11 @@
 		"test": "jest",
 		"build": "tsc"
 	},
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
 	"keywords": [
 		"array",
 		"array-utils",
