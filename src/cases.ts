@@ -84,14 +84,26 @@ export function zip(arr1: any[], arr2: any[]): any[][] {
   return arr1.map((item, index) => [item, arr2[index]]);
 }
 
+/**
+ * Partitions an array into two groups: one that satisfies the predicate and one that doesn't.
+ * @param {Array} arr - The array to partition.
+ * @param {(value: any) => boolean} predicate - A function to test each element.
+ * @returns {[Array, Array]} - A tuple with two arrays: [pass, fail].
+ */
+export function partition(arr: any[], predicate: (value: any) => boolean): [any[], any[]] {
+  return arr.reduce<[any[], any[]]>((result, element) => {
+      result[predicate(element) ? 0 : 1].push(element);
+      return result;
+  }, [[], []]);
+}
 
-// arrayIntersection
-// arrayDifference
-// arrayShuffle
-// arrayChunk
-// arrayFlatten
-// arrayUnique
-// arrayRotate
-// arrayZip
-// arrayPartition
-// arrayUnion
+// Implementing the union function
+/**
+* Combines two arrays, removing duplicates, to form a set of unique values.
+* @param {Array} arr1 - The first array.
+* @param {Array} arr2 - The second array.
+* @returns {Array} - An array containing unique values from both arrays.
+*/
+export function union(arr1: any[], arr2: any[]): any[] {
+  return [...new Set([...arr1, ...arr2])];
+}
