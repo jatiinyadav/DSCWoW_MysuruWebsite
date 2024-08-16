@@ -21,6 +21,9 @@
 		"array-toolkit",
 		"typescript"
 	],
+  "bugs": {
+    "url": "https://github.com/swapnilsparsh/text-particles.js/issues"
+  },
 	"author": "Jatin Yadav",
 	"license": "MIT",
 	"dependencies": {
