@@ -16,7 +16,10 @@
 		"array",
 		"array-utils",
 		"regex",
-		"array-manipulation"
+		"array-manipulation",
+    "lodash",
+    "array-toolkit",
+    "typescript"
 	],
 	"author": "Jatin Yadav",
 	"license": "MIT",
