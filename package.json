@@ -1,0 +1,35 @@
+{
+	"name": "arr-toolkit",
+	"version": "1.0.0",
+	"description": "A collection of handy string manipulation functions.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/jatiinyadav/string-utils"
+	},
+	"scripts": {
+	  "test": "jest",
+	  "build": "tsc"
+	},
+	"keywords": [
+	  "string",
+	  "string-utils",
+	  "regex",
+	  "string-manipulation",
+	  "word-count",
+	  "reverse",
+	  "palindrone",
+	  "trim",
+	  "snake_case",
+	  "dot-case",
+	  "sentence-case"
+	],
+	"author": "Jatin Yadav",
+	"license": "MIT",
+	"dependencies": {
+		"@types/jest": "^29.5.12",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.2.4"
+	}
+}
