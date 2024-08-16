@@ -1,22 +1,22 @@
 {
 	"name": "arr-toolkit",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A collection of handy array manipulation functions.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"repository": {
-	  "type": "git",
-	  "url": "https://github.com/jatiinyadav/array-toolkit"
+		"type": "git",
+		"url": "https://github.com/jatiinyadav/array-toolkit"
 	},
 	"scripts": {
-	  "test": "jest",
-	  "build": "tsc"
+		"test": "jest",
+		"build": "tsc"
 	},
 	"keywords": [
-	  "array",
-	  "array-utils",
-	  "regex",
-	  "array-manipulation"
+		"array",
+		"array-utils",
+		"regex",
+		"array-manipulation"
 	],
 	"author": "Jatin Yadav",
 	"license": "MIT",
