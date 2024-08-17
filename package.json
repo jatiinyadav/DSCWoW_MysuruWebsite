@@ -16,7 +16,9 @@
 		"dist/",
 		"index.ts",
 		"README.md",
-		"LICENSE"
+		"LICENSE",
+		"package.json",
+		"package-lock.json"
 	],
 	"keywords": [
 		"array",
