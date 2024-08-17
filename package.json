@@ -3,7 +3,7 @@
 	"version": "1.2.4",
 	"description": "A collection of handy array manipulation functions.",
 	"main": "dist/index.js",
-	"types": "dist/index.js",
+	"types": "dist/cases.d.ts",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/jatiinyadav/array-toolkit"
